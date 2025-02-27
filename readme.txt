@@ -1,8 +1,8 @@
-# Personal Research Assistant
+#Personal Research Assistant
 
 A sophisticated AI-powered research assistant for comprehensive information discovery, collection, verification, and synthesis.
 
-## Features
+##Features
 
 - **Topic Discovery**: Refine and expand research topics to cover essential aspects
 - **Information Collection**: Search and retrieve content from multiple sources (web, Wikipedia, academic databases)
@@ -10,7 +10,7 @@ A sophisticated AI-powered research assistant for comprehensive information disc
 - **Synthesis**: Combine and analyze collected information to generate insights
 - **Reporting**: Create comprehensive research reports with proper citations
 
-## Technology Stack
+##Technology Stack
 
 - **Python**: Core programming language
 - **Streamlit**: User interface for research topic input, scope definition, and result visualization
@@ -20,7 +20,7 @@ A sophisticated AI-powered research assistant for comprehensive information disc
 - **LlamaIndex**: Efficient indexing of research sources for creating a queryable knowledge base
 - **OpenAI**: LLM for understanding research material, summarization, and coherent report generation
 
-## Installation
+##Installation
 
 1. Clone the repository:
 ```bash
@@ -46,7 +46,7 @@ GOOGLE_APPLICATION_CREDENTIALS=path_to_your_google_credentials.json
 GOOGLE_SEARCH_API_KEY=your_google_search_api_key
 ```
 
-## Usage
+##Usage
 
 1. Run the Streamlit application:
 ```bash
@@ -59,7 +59,7 @@ streamlit run app.py
 
 4. View the results, explore the collected information, and download the generated report
 
-## Configuration
+##Configuration
 
 You can customize the research assistant by modifying the settings in `config.py`:
 
@@ -68,10 +68,10 @@ You can customize the research assistant by modifying the settings in `config.py
 - Set up preferred academic databases
 - Customize report formatting
 
-## Contributing
+##Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+##License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
